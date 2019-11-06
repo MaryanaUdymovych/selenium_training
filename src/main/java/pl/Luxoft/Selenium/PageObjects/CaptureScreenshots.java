@@ -1,7 +1,7 @@
 package pl.Luxoft.Selenium.PageObjects;
 
 public class CaptureScreenshots {
-    protected void captureElementScreenshot(WebElement webElement) throws IOException {
+  /*  protected void captureElementScreenshot(WebElement webElement) throws IOException {
 
         File screenshot = ((TakesScreenshot)webDriver)
 
@@ -36,4 +36,6 @@ public class CaptureScreenshots {
         Files.copy(screenshot.toPath(), elementScreenshot.toPath());
 
     }
+    */
+
 }
